@@ -1,5 +1,5 @@
 # PP_B01-3
-Juego 
+NIVEL 1
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.Insets?>
@@ -11,7 +11,6 @@ Juego
 <?import javafx.scene.control.ProgressBar?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
-
 
 <AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyecto1.VentanaController">
    <children>
@@ -28,10 +27,10 @@ Juego
       <Label layoutX="200.0" layoutY="69.0" prefHeight="25.0" prefWidth="180.0" text="Selecciona la respuesta correta" textAlignment="CENTER" textFill="#dd3d10" />
       <ProgressBar layoutX="30.0" layoutY="45.0" prefHeight="18.0" prefWidth="123.0" progress="0.0" />
       <MenuButton layoutX="470.0" layoutY="352.0" mnemonicParsing="false" text="MenuButton">
-         <items>
-            <MenuItem mnemonicParsing="false" text="Action 1" />
-            <MenuItem mnemonicParsing="false" text="Action 2" />
-         </items>
+        <items>
+          <MenuItem mnemonicParsing="false" text="Action 1" />
+          <MenuItem mnemonicParsing="false" text="Action 2" />
+        </items>
       </MenuButton>
       <Label layoutX="42.0" layoutY="63.0" prefHeight="18.0" prefWidth="99.0" text="Barra de Progreso" textAlignment="CENTER" textFill="#171717" />
       <Label layoutX="67.0" layoutY="114.0" prefHeight="50.0" prefWidth="479.0" text="¿Cómo se conoce el nuevo tipo de organización social que surgió en las comunidades indígenas de Colombia durante la época precolombina?" textAlignment="JUSTIFY" textFill="#1c19bf" wrapText="true">
